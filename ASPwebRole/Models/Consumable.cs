@@ -8,7 +8,7 @@ namespace ASPwebRole.Models
         [Key]
         public int IdConsumable { get; set; }
 
-        [ForeignKey("ObjectGame")]
+        [ForeignKey("IdObjectGame")]
         public ObjectGame ObjectGame { get; set; }
         [Required]
         public string ConsumableName { get; set; }

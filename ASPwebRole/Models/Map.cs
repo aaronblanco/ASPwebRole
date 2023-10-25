@@ -14,7 +14,7 @@ namespace ASPwebRole.Models
         [Required]
         public int MinimumLevel{get; set; }
 
-        public ICollection<Zone>? Zones { get; set; }
+        public ICollection<Zone> Zones { get; set; }
 
     }
 }

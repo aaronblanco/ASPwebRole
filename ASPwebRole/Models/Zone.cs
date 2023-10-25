@@ -17,10 +17,10 @@ namespace ASPwebRole.Models
         [Required]
         public  string ZoneDescription { get; set; }
         [Required]
-        public ICollection<Enemy> Enemys { get; set; }
+        public ICollection<Enemy> Enemies { get; set; }
 
-        [ForeignKey("IdMap")]
-        public Map MapAssigned { get; set; }
+       [ForeignKey("IdMap")]
+        public Map Map { get; set; }
 
     }
 }
